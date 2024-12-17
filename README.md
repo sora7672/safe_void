@@ -5,7 +5,7 @@
 ## About
 This pack is designed to work best in a sky/void world.
 It helps players to safely find postions to settle down and build.
-It's part of [Sora_7672's](https://github.com/sora7672) - [Skyworld Datapack](https://github.com/sora7672/Skyworld).
+<br>It's part of [Sora_7672's](https://github.com/sora7672) - [Skyworld Datapack](https://github.com/sora7672/Skyworld).
 
 You get access to custom commands, based in modules.
 Every module can be configured to be enabled or not.
