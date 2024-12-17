@@ -3,7 +3,7 @@
     "pack_format": 15,
     "description": [
       {
-        "text": "Safe_void",
+        "text": "Safe Void",
         "color": "dark_aqua"
       },
       {
@@ -25,45 +25,10 @@
         "color": "dark_gray"
       },
       {
-        "text": " Create your ",
+        "text": " Don't die in the void!",
         "color": "white"
-      },
-      {
-        "text": "D",
-        "color": "red"
-      },
-      {
-        "text": "r",
-        "color": "gold"
-      },
-      {
-        "text": "e",
-        "color": "yellow"
-      },
-      {
-        "text": "a",
-        "color": "green"
-      },
-      {
-        "text": "m",
-        "color": "aqua"
-      },
-      {
-        "text": " ",
-        "color": "white"
-      },
-      {
-        "text": "S",
-        "color": "blue"
-      },
-      {
-        "text": "k",
-        "color": "light_purple"
-      },
-      {
-        "text": "y",
-        "color": "red"
       }
+      
     ]
 
   }

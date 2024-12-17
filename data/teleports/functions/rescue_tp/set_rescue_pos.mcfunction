@@ -1,6 +1,7 @@
 
+# Stores for the executing player at the current position
 
+execute store result score @s rescue_tp_x run data get entity @s Pos[0] 1
+execute store result score @s rescue_tp_y run data get entity @s Pos[1] 1
+execute store result score @s rescue_tp_z run data get entity @s Pos[2] 1
 
-scoreboard players operation @s rescue_tp_x = @s check_x
-scoreboard players operation @s rescue_tp_y = @s check_y
-scoreboard players operation @s rescue_tp_z = @s check_z
