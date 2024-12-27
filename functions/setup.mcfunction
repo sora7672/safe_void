@@ -68,7 +68,8 @@ execute as @a run scoreboard players set @s random_tp_cooldown 0
 ## All user info
 
 
-execute as @a run tellraw @s [{"text":"Loaded teleports module.","color":"white"}]
+execute as @a run tellraw @s ["",{"text":"The ","color":"white"},{"text":"Safe Void ","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://github.com/sora7672/safe_void"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Visit Projects GitHub","color":"yellow"}]}}},{"text":"datapack has reloaded!","color":"white"},"\n",{"text":"Created by ","color":"white"},{"text":"[Sora_7672]","color":"dark_purple","underlined":true,"clickEvent":{"action":"open_url","value":"https://github.com/sora7672"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Visit Sora_7672's GitHub","color":"yellow"}]}}}]
+
 execute as @a run tellraw @s [{"text":"In ","color":"white"},{"text":"Overworld","color":"green"},{"text":" min y is set to ","color":"white"},{"score":{"name":"dim_overworld","objective":"world_min_height"},"color":"yellow"}]
 execute as @a run tellraw @s [{"text":"In ","color":"white"},{"text":"the Nether","color":"red"},{"text":" min y is set to ","color":"white"},{"score":{"name":"dim_nether","objective":"world_min_height"},"color":"yellow"}]
 execute as @a run tellraw @s [{"text":"In ","color":"white"},{"text":"the End","color":"light_purple"},{"text":" min y is set to ","color":"white"},{"score":{"name":"dim_end","objective":"world_min_height"},"color":"yellow"}]
